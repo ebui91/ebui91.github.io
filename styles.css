@@ -3,17 +3,35 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+
 /* LANDING PAGE STYLING */
 .landing-page{
-  height: 75vh;
+  height: 62vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   background-image: url('./assets/images/landing-bg.jpg');
   background-repeat: repeat;
   z-index: 1;
+}
+
+.landing-page-bot{
+  height: 40vh;
+  width: 100%;
+  background-image: url('./assets/images/landing-bg.jpg');
+  background-repeat: repeat;
+  z-index: 1;
+}
+
+.transparent-bot{
+  position: absolute;
+  height: 40vh;
+  width: 100%;
+  background: #FFF;
+  opacity: 0.75;
+  z-index: 2;
 }
 
 .landing-page h1{
@@ -36,7 +54,7 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 15%;
+  margin-top: 8%;
   z-index: 5;
 }
 
@@ -57,7 +75,7 @@ body{
 
 .transparent{
   position: absolute;
-  height: 75vh;
+  height: 62vh;
   width: 100%;
   background: #FFF;
   opacity: 0.75;
@@ -74,9 +92,10 @@ body{
   z-index: 5;
 }
 
+
 /* ABOUT SECTION STYLING */
 .about-section{
-  height: 45vh;
+  height: 65vh;
   width: 100%;
   padding: 15px;
   display: flex;
@@ -97,32 +116,22 @@ body{
   font-family: Montserrat, sans-serif;
   text-align: center;
   color: #E3E3E3;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .about-row{
   height: 45%;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.about-col{
-  height: 100%;
+.about-row p{
   width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-
-.about-col p{
-  width: 80%;
   text-align: center;
   line-height: 1.5em;
-  margin-bottom: 5%;
 }
 
 .avatar{
@@ -130,15 +139,15 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 250px;
-  width: 250px;
+  height: 225px;
+  width: 225px;
   border-radius: 50%;
 }
 
 
 /* SKILLS SECTION STYLING */
 .skills-section{
-  height: 35vh;
+  height: 30vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -151,7 +160,6 @@ body{
   font-family: Montserrat, sans-serif;
   text-align: center;
   color: #F2F2F2;
-  margin-top: 5%;
 }
 
 .logos-section{
@@ -218,13 +226,18 @@ body{
 
 /* PORTFOLIO SECTION STYLING */
 .portfolio-section{
-  height: 90vh;
+  height: 120vh;
   width: 100%;
-  background: #FFF;
+  background: #E3E3E3;
   color: #111;
   text-decoration: none;
   font-family: Roboto, sans-serif;
   padding: 10px;
+  line-height: 1.5em;
+}
+
+iframe{
+  background: #FFF;
 }
 
 .portfolio-section a{
@@ -250,7 +263,7 @@ body{
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: space-between;
 }
 
 .portfolio-row-left, .portfolio-row-right{
@@ -298,6 +311,7 @@ body{
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
+  margin: 10px;
 }
 
 .portfolio-section a:hover{
@@ -308,6 +322,8 @@ body{
 .tech-container{
   width: 50%;
   margin: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -318,9 +334,9 @@ body{
   background: #F2F2F2;
   color: #777;
   border-radius: 3px;
-  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding: 5px;
-  font-weight: lighter;
 }
 
 .btn{
@@ -336,21 +352,21 @@ body{
   padding: 10px;
   font-size: 14px;
   border-radius: 30px;
-  background: #FFF;
-  margin-bottom: 40%;
+  background: #F2F2F2;
+  margin-bottom: 60%;
 }
 
 .link-btn:hover{
-  transition: all ease 0.5s;
+  transition: all ease 0.6s;
   background: #11FFCD;
 }
 
 /* CONTACT SECTION STYLING */
 .contact-section{
-  height: 40vh;
+  height: 45vh;
   width: 100%;
   background: #11FFCD;
-  color: #111;
+  color: #222;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -359,7 +375,11 @@ body{
 
 .contact-text{
   text-align: center;
-
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-text h1{

@@ -96,7 +96,7 @@ body{
 /* ABOUT SECTION STYLING */
 .about-section{
   height: 65vh;
-  width: 100%;
+  max-width: auto;
   padding: 15px;
   display: flex;
   flex-direction: column;
@@ -121,7 +121,7 @@ body{
 
 .about-row{
   height: 45%;
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -227,7 +227,7 @@ body{
 /* PORTFOLIO SECTION STYLING */
 .portfolio-section{
   height: 120vh;
-  width: 100%;
+  width: auto;
   background: #E3E3E3;
   color: #111;
   text-decoration: none;

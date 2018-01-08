@@ -11,5 +11,7 @@ In this day and age of bootstrap templates, why would anyone ACTUALLY make their
 
 ## Versions
 v1.0: Static framework for the website has been built. (12.25.17)
+<br />
 v1.1: Completed styling and added iFrames linking to other projects. (12.30.17)
+<br />
 v1.2: Tweaked some of the content in my About section, as well as adding links to my resume. (1.8.18)

@@ -20,6 +20,9 @@ body{
 .landing-page-bot{
   height: 40vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   background-image: url('./assets/images/landing-bg.jpg');
   background-repeat: repeat;
   z-index: 1;
@@ -68,6 +71,12 @@ body{
 }
 
 .landing-page .fa:hover{
+  transition: all ease 0.3s;
+  cursor: pointer;
+  color: #11FFCD;
+}
+
+.landing-page-bot .fa:hover{
   transition: all ease 0.3s;
   cursor: pointer;
   color: #11FFCD;
@@ -520,8 +529,7 @@ iframe{
   .sidenav a {font-size: 18px;}
 }
 
-#x{
-  transition: all ease 0.3s;
+#elem{
+  margin-top: 5%;
+  z-index: 20;
 }
-
-/* ANIMATIONS */

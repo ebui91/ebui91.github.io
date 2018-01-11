@@ -24,7 +24,10 @@
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="./assets/images/favicon.ico?">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="icon" href="./assets/images/favicon.ico">
   </head>
 
   <body>
@@ -112,7 +115,54 @@
 
       <div class='portfolio-row' data-aos="fade-right" data-aos-duration="1200">
         <div class='portfolio-row-left' >
-          <iframe src="http://162.243.130.224:3001/" scrolling='no' height="80%" width="80%" max-height="80%" max-width="90%"></iframe>
+          <div id="h2go-Carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#h2go-Carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#h2go-Carousel" data-slide-to="1"></li>
+              <li data-target="#h2go-Carousel" data-slide-to="3"></li>
+              <li data-target="#h2go-Carousel" data-slide-to="4"></li>
+              <li data-target="#h2go-Carousel" data-slide-to="5"></li>
+              <li data-target="#h2go-Carousel" data-slide-to="6"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="./assets/images/h2go/h2go-home.png" alt="h2go-home">
+              </div>
+
+              <div class="item">
+                <img src="./assets/images/h2go/h2go-products.png" alt="h2go-products">
+              </div>
+
+              <div class="item">
+                <img src="./assets/images/h2go/h2go-detail.png" alt="h2go-detail">
+              </div>
+
+              <div class="item">
+                <img src="./assets/images/h2go/h2go-checkout.png" alt="h2go-detail">
+              </div>
+
+              <div class="item">
+                <img src="./assets/images/h2go/h2go-about.png" alt="h2go-detail">
+              </div>
+
+              <div class="item">
+                <img src="./assets/images/h2go/h2go-contact.png" alt="h2go-detail">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#h2go-Carousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#h2go-Carousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
 
         <div class='portfolio-row-right portfolio-text'>
@@ -136,7 +186,7 @@
 
           </div>
 
-          <a target='_blank' href='http://h2go.store'>
+          <a target='_blank' href='http://162.243.130.224:3001/'>
             <button class='btn link-btn'>VISIT WEBSITE</button>
           </a>
         </div>
@@ -172,7 +222,49 @@
         </div>
 
         <div class='portfolio-row-right'>
-          <iframe src="http://q2.devmountain.review" scrolling='no' frameborder="1" height="80%" width="80%" max-height="80%" max-width="90%"></iframe>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="./assets/images/q2/q2-login.png" alt="h2go-home">
+              </div>
+
+              <div class="item">
+                <img src="./assets/images/q2/q2-student.png" alt="h2go-detail">
+              </div>
+
+              <div class="item">
+                <img src="./assets/images/q2/q2-mentor.png" alt="h2go-detail">
+              </div>
+
+              <div class="item">
+                <img src="./assets/images/q2/q2-answer-thread.png" alt="h2go-detail">
+              </div>
+
+              <div class="item">
+                <img src="./assets/images/q2/q2-charts.png" alt="h2go-detail">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>

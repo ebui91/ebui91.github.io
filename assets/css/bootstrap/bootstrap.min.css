@@ -2550,7 +2550,7 @@ table th[class*="col-"] {
 @media screen and (max-width: 767px) {
   #landing-img{
     max-height: 80vh;
-    width: auto;
+    width: auto;co
   }
   .table-responsive {
     width: 100%;

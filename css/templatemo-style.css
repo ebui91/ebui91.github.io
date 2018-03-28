@@ -75,7 +75,7 @@ button:focus { outline: none; }
 .cd-slider-nav .nav-item.selected .nav-link,
 .cd-slider-nav .nav-link:hover,
 .cd-slider-nav .nav-link:focus {
-	background: rgba(0, 0, 0, 0.7);
+	background: #0275D8;
 	color: #FFF;
 }
 
@@ -254,15 +254,16 @@ button:focus { outline: none; }
 }
 
 .tm-submit-btn {
-	background-color: #333333;
+	background-color: #333;
 	border: none;
-	color: white;
+	color: #FEFEFE;
 	padding: 15px 35px;
 }
 
 .tm-submit-btn:hover,
 .tm-submit-btn:focus {
-	background-color: #161616;
+	background-color: #0275D8;
+	color: #FFF;
 }
 
 textarea { height: 168px; }

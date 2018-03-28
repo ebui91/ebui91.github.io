@@ -705,9 +705,10 @@ Custom Styles
 -------------------------------- */
 .avatar {
   border-radius: 50%;
-  height: 20%;
-  width: 20%;
+  height: 25%;
+  width: 25%;
   margin-bottom: 15px;
+  border: 3px solid #0275D8;
 }
 
 .icon-container {
@@ -727,7 +728,7 @@ Custom Styles
 
 .icon-container a:hover {
   transition: all ease 0.3s;
-  transform: scale(1.05);
+  transform: scale(1.15);
 }
 
 .col-centered {
@@ -765,4 +766,10 @@ Custom Styles
 
 #landing-title {
   color: #0275D8;
+}
+
+.img-fluid:hover {
+  transition: all ease 0.5s;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
 }
